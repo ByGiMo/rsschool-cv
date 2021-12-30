@@ -26,6 +26,19 @@
 ***
 
 ## Code Examples
+Code Examples
+
+```
+function findOutlier(integers){
+  const oddOrEven = integers[0]%2;
+  let odd = [];
+  let even = [];
+  for (const value of integers) {
+   value%2===0?even.push(value):odd.push(value);
+  }
+return odd.length===1?odd[0]:even[0];
+}
+```
 
 ***
 ## Education
