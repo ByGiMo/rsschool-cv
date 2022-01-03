@@ -4,6 +4,6 @@ body {
     font-weight: 700;
     font-family: Bradley Hand;
 }
-body > h1, h2 {
+.heading {
     color: white;
 }
