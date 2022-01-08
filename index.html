@@ -3,23 +3,90 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>Igor Kashtuyeu</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css1.css" />
 </head>
-<body>
-         <p><a name="top"></a></p> 
-    <table>
-    <tr>
-        <th>
-            <img src="avatar.jpg" width="100" alt="The personal avatar">
-    <th>
+<body class="fon">
+    <ul class="menu">
+    <li><a href="#contacts">Contacts</a></li>
+    <li><a href="#summary">Summary</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#code">Code</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#languages">Languages</a></li>
+    </ul>
+           <img class="avatar" src="avatar.jpg" width="150" alt=" my avatar">
+            <div class="container">
+           <div class="heading">
         <h1 class="heading">Igor Kashtuyeu</h1>
-        <p><strong>engineer programmer</strong></p>
-    </th>
-    </tr>
-    </table>
-    <hr color="red">
-</br>
-<h2 class="heading">About me </h2> 
- <p>My name is Igor. My goal is to become a full-stack developer. Now I work as a design engineer and at the same time I am studying programming. I would like to develop and gain knowledge in this direction. I want to learn the frontend and then the backend.</p>
+        <hr size="1" color="green">
+        <p>JUNIOR FRONT-END DEVELOPER</p>
+        </div>
+        </div>
+    <hr class="length" color="red">
+    <div class="container">
+    <div class="heading-info">
+         <a name="contacts"></a>
+         <h2 class="heading">Contacts</h2>
+        <ul>
+    <li><a href="tel:+375447202237">My Phone</a></li>
+    <li><a href="igorkastuev150@gamil.com">My Email</a></li>
+    <li><a href="https://github.com/ByGiMo"><strong>My Github</strong></a></li>
+    <li><a href="https://vk.com/id96283859"><strong>My VK</strong></a></li>
+        </ul>
+        </div>
+    <div class="heading-info">
+         <a name="summary"></a>
+       <h2 class="heading">About me </h2> 
+ <p>My name is Igor. My goal is to become a full-stack developer. Now I work as a design engineer and at the same time I am studying programming. I would like to develop and gain knowledge in this direction. I want to learn the frontend and then the backend.</p> 
+                 </div>
+                 </div>
+                 <hr color="red">
+    <div class="container">
+            <div class="text-info">
+               <a name="skills"></a>
+        <h2 class="heading">Skills</h2>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>   
+        </ol>
+        </div>
+        <div class="text-info">
+            <a name="code"></a>
+            <h2 class="heading">Code Examples</h2>
+<pre><code>function findOutlier(integers){
+  const oddOrEven = integers[0]%2;
+  let odd = [];
+  let even = [];
+  for (const value of integers) {
+   value%2===0?even.push(value):odd.push(value);
+  }
+return odd.length===1?odd[0]:even[0];
+}</code></pre>
+        </div>
+                 </div>
+                 <hr color="red">
+                <div class="container">
+            <div class="text-info">
+            <a name="education"></a>
+        <h2 class="heading">Education</h2>
+        <ul>
+            <li>Belarusian state university of informatics and radioelectronics 
+                <ul>
+                    <li>fakulty of radioengineerig and electron</li>
+                    </ul>
+                    </li>
+            <li><a href="https://ru.hexlet.io/programs/backend"><strong>Hexlet</strong></a></li>
+        </ul>
+        </div>
+            <div>
+            <a name="languages"></a>
+            <h2 class="heading">Languages</h2>   
+                    <ul>
+                        <li>Russian</li>
+                        <li>English(A2) - Pre-intermediante</li>
+                    </ul>    
+                </div>
+        </div>
 </body>
 </html>

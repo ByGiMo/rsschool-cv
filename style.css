@@ -1,9 +1,66 @@
 body {
-    background-color: purple;
-    font-size: 18 px;
-    font-weight: 700;
-    font-family: Bradley Hand;
+    background-color: orange;
+    font-weight: bold;
 }
+.container {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex: 1;
+}
+.heading-info {
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-info {
+    /*width: 50%;*/
+    margin: 20px;
+    text-align: left;
+}
+
+@media (max-width: 600px){
+    .container{
+        display: block;
+    }
+}
+.avatar {
+    box-shadow: 3px 3px green, -0.5em 0 .2em green;;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.round {
+    border-radius: 50px; 
+    border: 3px solid; 
+   }
 .heading {
     color: white;
+    font-family: jeff script;
+    text-align: center;
+}
+
+.split {
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.menu a {
+    text-decoration: none;
+    font-family: Sans-Serif;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: grey;
+    border-bottom: 2px solid green;
+}
+.menu li {
+    display: inline;
 }
